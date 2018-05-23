@@ -73,6 +73,8 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 
 
 
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">(function () {
 	if ("geolocation" in navigator && typeof navigator.geolocation.getCurrentPosition === "function") {
 		// setup the success and error callbacks as well as the  
@@ -133,10 +135,12 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		if (a === b) { // handles various "exact" edge cases
 			return true;
 		}
-		allowedDiff = allowedDiff || 0.001;
+		allowedDiff = allowedDiff || 0.0025;
 		return Math.abs(a - b) < allowedDiff;
 	};
 }());
+
+
 
 
 
@@ -225,10 +229,12 @@ Scanner Calibration Engaged.
 You are standing near the Good Earth cafe.
 
 [[Rescan]]</tw-passagedata>
-<tw-passagedata pid="7" name="Rescan" tags="" position="436,611">[[Rescan for Geotriggers|calibrate the scan]]
+<tw-passagedata pid="7" name="Rescan" tags="" position="436,611">The actual rescan link.
+
+[[Rescan for Geotriggers|calibrate the scan]]
 
 
-%/in the passage above, the player will see the text &#39;rescan for geotriggers, but the link will be to the passage called &#39;calibrate the scan&#39;%/</tw-passagedata>
+/%in the passage above, the player will see the text &#39;rescan for geotriggers, but the link will be to the passage called &#39;calibrate the scan&#39;%/</tw-passagedata>
 <tw-passagedata pid="8" name="Leva" tags="" position="201,505">Currently you are at $Location.latitude and $Location.longitude
 
 You are standing next to Leva Cafe.
