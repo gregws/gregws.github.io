@@ -72,6 +72,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 
 
 
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">(function () {
 	if ("geolocation" in navigator && typeof navigator.geolocation.getCurrentPosition === "function") {
 		// setup the success and error callbacks as well as the  
@@ -132,10 +133,11 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		if (a === b) { // handles various "exact" edge cases
 			return true;
 		}
-		allowedDiff = allowedDiff || 0.0005;
+		allowedDiff = allowedDiff || 0.001;
 		return Math.abs(a - b) < allowedDiff;
 	};
 }());
+
 
 
 
