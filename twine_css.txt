@@ -1,0 +1,31 @@
+/* CSS for the main story */
+body, tw-story {
+	font-size: 100%;
+}
+
+/* Do not display the Saves */
+#menu-saves {
+	display: none;
+}
+
+/* Change the UI bar colour */
+#ui-bar {
+	background-color: Teal;
+}
+
+/* Change the story title style */
+#title {
+	font-family: Helvetica, Arial, sans-serif;	
+	font-weight: bold;
+	font-size: 110%;
+	color: White;
+}
+
+/* Change the link styles */
+a {
+	color:Orange;	
+}
+
+a:hover {
+	color:Teal;	
+}
