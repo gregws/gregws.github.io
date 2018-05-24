@@ -65,14 +65,39 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		<p id="init-lacking">Apologies! Your web browser lacks required capabilities. Please consider upgrading it or switching to a more modern web browser.</p>
 		<p id="init-loading">Initializing. Please wait&hellip;<br /><progress></progress></p>
 	</div>
-	<div id="store-area" hidden><tw-storydata name="Locative Twine" startnode="2" creator="Twine" creator-version="2.0.11" ifid="33804162-AAA3-4ACB-82E8-FEA0A789107B" format="SugarCube" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+	<div id="store-area" hidden><tw-storydata name="Locative Twine" startnode="2" creator="Twine" creator-version="2.0.11" ifid="33804162-AAA3-4ACB-82E8-FEA0A789107B" format="SugarCube" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body, tw-story {
+	font-size: 100%;
+}
 
+/* Do not display the Saves */
+#menu-saves {
+	display: none;
+}
 
+#ui-bar {
+	background-color: Teal;
+}
 
+#title {
+	font-family: Helvetica, Arial, sans-serif;	
+	font-weight: bold;
+	font-size: 110%;
+	color: White;
+}
 
+a {
+	color:Orange;	
+}
 
+a:hover {
+	color:Teal;	
+}
 
-
+@media screen and (max-width: 800) {
+	body, tw-story {
+		font-size: 150%;
+	}
+}
 
 
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">(function () {
@@ -135,7 +160,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		if (a === b) { // handles various "exact" edge cases
 			return true;
 		}
-		allowedDiff = allowedDiff || 0.0025;
+		allowedDiff = allowedDiff || 0.0015;
 		return Math.abs(a - b) < allowedDiff;
 	};
 }());
@@ -148,11 +173,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 
 
 
-</script><tw-passagedata pid="1" name="Start" tags="" position="887,580">/%if you want to start a passage by playing audio, use this%/
-
-The world you see is not the only one. This device caries with it a multidimensional transponder. 
-
-/%the next bit calls the location variables, which initializes our access of the geolocation api%/
+</script><tw-passagedata pid="1" name="Start" tags="" position="887,580">The world you see is not the only one. This device caries with it a multidimensional transponder. /%the next bit calls the location variables, which initializes our access of the geolocation api%/
 
 Currently you are at $Location.latitude and $Location.longitude which is on the cusp of an area of thin dimensional stability.
 
@@ -166,7 +187,6 @@ First, you need to [[calibrate the scan]].
 
 </tw-passagedata>
 <tw-passagedata pid="2" name="StoryInit" tags="" position="885,410">/%this is a comment. Below is the bit the player will see when the game starts%/
-
 [[Start]] 
 
 /%this sets up our variables for our geotriggers%/
@@ -205,17 +225,14 @@ Good Earth is at 53.522624, -113.520841.
 The parking lot is at 53.521023, -113.520229.
 
 [[calibrate the scan]]</tw-passagedata>
-<tw-passagedata pid="5" name="calibrate the scan" tags="" position="892,749">/%this bit of code does the same thing as the &#39;old-code calibrate the scan&#39; passage, but instead calls on the &#39;approxEqual&#39; function that we made in this story&#39;s javascript. The &#39;display&#39; command will display other passages when you put the desired passage&#39;s title within the quotation marks. Note we also make a passage for when the player is in a location we haven&#39;t coded for. That particular passage could contain hints etc%/
-
-Currently you are at $Location.latitude and $Location.longitude
+<tw-passagedata pid="5" name="calibrate the scan" tags="" position="892,749">/%this bit of code does the same thing as the &#39;old-code calibrate the scan&#39; passage, but instead calls on the &#39;approxEqual&#39; function that we made in this story&#39;s javascript. The &#39;display&#39; command will display other passages when you put the desired passage&#39;s title within the quotation marks. Note we also make a passage for when the player is in a location we haven&#39;t coded for. That particular passage could contain hints etc%/Currently you are at $Location.latitude and $Location.longitude
 
 Scanner Calibration Engaged.
-
 &lt;&lt;if approxEqual($Location.latitude, $LevaLat) and approxEqual($Location.longitude, $LevaLong)&gt;&gt;
 	&lt;&lt;display &quot;Leva&quot;&gt;&gt;
 	&lt;&lt;elseif approxEqual($Location.latitude, $GoodEarthLat) and approxEqual($Location.longitude, $GoodEarthLong)&gt;&gt;
     	&lt;&lt;display &quot;Good Earth&quot;&gt;&gt;
-    &lt;elseif approxEqual($Location.latitude, $ParkingLat) and approxEqual($Location.longitude, $ParkingLong)&gt;&gt;
+    &lt;&lt;elseif approxEqual($Location.latitude, $ParkingLat) and approxEqual($Location.longitude, $ParkingLong)&gt;&gt;
     	&lt;&lt;display &quot;Parking&quot;&gt;&gt;    
 	&lt;&lt;else&gt;&gt;
 	&lt;&lt;display &quot;This zone is clear&quot;&gt;&gt;
@@ -228,6 +245,10 @@ Scanner Calibration Engaged.
 
 You are standing near the Good Earth cafe.
 
+Leva is at 53.521940, -113.517554.
+Good Earth is at 53.522624, -113.520841.
+The parking lot is at 53.521023, -113.520229.
+
 [[Rescan]]</tw-passagedata>
 <tw-passagedata pid="7" name="Rescan" tags="" position="436,611">The actual rescan link.
 
@@ -239,10 +260,18 @@ You are standing near the Good Earth cafe.
 
 You are standing next to Leva Cafe.
 
+Leva is at 53.521940, -113.517554.
+Good Earth is at 53.522624, -113.520841.
+The parking lot is at 53.521023, -113.520229.
+
 [[Rescan]]</tw-passagedata>
 <tw-passagedata pid="9" name="Parking" tags="" position="614,446">Currently you are at $Location.latitude and $Location.longitude
 
 You are near the Parking lot.
+
+Leva is at 53.521940, -113.517554.
+Good Earth is at 53.522624, -113.520841.
+The parking lot is at 53.521023, -113.520229.
 
 [[Rescan]]
 
