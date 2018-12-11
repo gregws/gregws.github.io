@@ -11,11 +11,11 @@
 			<a-assets>
 				<img id="boxTexture" src="https://i.imgur.com/mYmmbrp.jpg">
 				<img id="skyTexture" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg">
+				<img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg">
 			</a-assets>
 
-
+			<a-plane src="groundTexture" rotation="-90 0 0" width="30" height="30"></a-plane>
 			<a-box src="#boxTexture" position="0 2 -5" rotation="0 45 45" scale="2 2 2"></a-box>
-
 			<a-sky src="#skyTexture"></a-sky>
 
 			<!-- generate an environment 
