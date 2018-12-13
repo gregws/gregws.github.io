@@ -9,11 +9,15 @@
         <a-scene embedded arjs>
             
             <a-assets>
-                <a-asset-item id="pagoda" src="./models/pagoda/Pagoda.gltf"></a-asset-item>
+                <!--<a-asset-item id="pagoda" src="./models/pagoda/Pagoda.gltf"></a-asset-item>-->
+                <a-asset-item id="tree-obj" src="./models/tree/tree01.obj"></a-asset-item>
+                <a-asset-item id="tree-mtl" src="./models/tree/tree01.mtl"></a-asset-item>
             </a-assets>
             
-            <a-entity gltf-model="#pagoda"></a-entity>
+            <!--<a-entity gltf-model="#pagoda"></a-entity>-->
             
+            <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" scale="1 1 1" position="4 0 0"></a-entity>
+
             <!--<a-plane
                 color="blue"
                 position="0 0 0"
