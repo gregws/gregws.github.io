@@ -20,14 +20,14 @@
 
 			</a-assets>
 
-			<!-- draw a 3d model -->
-			<a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
+			<!-- draw a 3d model 
+			<a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>-->
 
 			<a-box src="#boxTexture" position="0 2 -5" rotation="0 45 45" scale="2 2 2">
 				<a-animation attribute="position" to="0 2.2 -5" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
 			</a-box>
 			
-			<a-sky src="#skyTexture"></a-sky>
+			<!-- <a-sky src="#skyTexture"></a-sky> -->
 
 			<!-- generate an environment -->
 			<a-entity environment="preset: japan; dressingAmount: 500"></a-entity>
