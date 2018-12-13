@@ -18,12 +18,16 @@
 				<a-asset-item id="cabin-obj" src="./models/Cabin%20And%20Environment%20.obj"></a-asset-item>
 				<a-asset-item id="cabin-mtl" src="./models/Cabin%20And%20Environment%20.mtl"></a-asset-item>
 
+				<a-asset-item id="pagoda" src="./models/Pagoda.gltf"></a-asset-item>
+
 			</a-assets>
 
 			<!-- draw a 3d model -->
 			<a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" scale="0.005 0.005 0.005" position="4 0 0"></a-entity>
 
 			<a-entity obj-model="obj: #cabin-obj; mtl: #cabin-mtl" scale="0.05 0.05 0.05" position="-13 -2 -80"></a-entity>
+
+			<a-entity gltf-model="#pagoda"></a-entity>
 			
 			<a-sky src="#skyTexture"></a-sky>
 
