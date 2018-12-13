@@ -12,16 +12,16 @@
 				
 				<img id="skyTexture" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg">
 
-				<a-entity id="object" src=""
+				<a-asset-item id="tree-obj" src="http://gregws.github.io/aframe/models/tree01.obj"></a-asset-item>
+				<a-asset-item id="tree-mtl" src="http://gregws.github.io/aframe/models/tree01.mtl"></a-asset-item>
+
+				<a-asset-item id="cabin-obj" src="http://gregws.github.io/aframe/models/Cabin%20And%20Environment%20.obj"></a-asset-item>
+				<a-asset-item id="cabin-mtl" src="http://gregws.github.io/aframe/models/Cabin%20And%20Environment%20.mtl"></a-asset-item>
 
 			</a-assets>
 
 			<!-- draw a 3d model -->
-			<a-entity>
-				
-
-			</a-entity>
-
+			<a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
 
 			<a-box src="#boxTexture" position="0 2 -5" rotation="0 45 45" scale="2 2 2">
 				<a-animation attribute="position" to="0 2.2 -5" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
@@ -30,7 +30,7 @@
 			<a-sky src="#skyTexture"></a-sky>
 
 			<!-- generate an environment -->
-			<a-entity environment="preset: yavapai; dressingAmount: 500"></a-entity>
+			<a-entity environment="preset: japan; dressingAmount: 500"></a-entity>
 
 		</a-scene>
 	</body>
