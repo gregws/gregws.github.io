@@ -15,14 +15,15 @@
 				<a-asset-item id="tree-obj" src="./models/tree01.obj"></a-asset-item>
 				<a-asset-item id="tree-mtl" src="./models/tree01.mtl"></a-asset-item>
 				
-				<!--
-				<a-asset-item id="cabin-obj" src="http://gregws.github.io/aframe/models/Cabin%20And%20Environment%20.obj"></a-asset-item>
-				<a-asset-item id="cabin-mtl" src="http://gregws.github.io/aframe/models/Cabin%20And%20Environment%20.mtl"></a-asset-item> -->
+				<a-asset-item id="cabin-obj" src="./models/Cabin%20And%20Environment%20.obj"></a-asset-item>
+				<a-asset-item id="cabin-mtl" src="./models/Cabin%20And%20Environment%20.mtl"></a-asset-item> -->
 
 			</a-assets>
 
 			<!-- draw a 3d model -->
-			<a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" scale="0.005 0.005 0.005" position="-4 -4 0"></a-entity>
+			<a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" scale="0.005 0.005 0.005" position="4 4 0"></a-entity>
+
+			<a-entity obj-model="obj: #cabin-obj; mtl: #cabin-mtl" scale="0.0005 0.0005 0.0005" position="8 8 0"></a-entity>
 			
 			<a-sky src="#skyTexture"></a-sky>
 
