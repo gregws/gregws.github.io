@@ -1,0 +1,423 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl AwsomeConcrete
+Ka 0.000000 0.000000 0.000000
+Kd 0.682353 0.690196 0.674510
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/AwsomeConcrete.jpg
+
+newmtl Brick_HighContrast
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.301961 0.188235
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/Brick_HighContrast.jpg
+
+newmtl Yellow
+Ka 0.000000 0.000000 0.000000
+Kd 0.807843 0.701961 0.482353
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/Yellow.jpg
+
+newmtl WhiteWallFacingTriffo
+Ka 0.000000 0.000000 0.000000
+Kd 0.858824 0.862745 0.862745
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/WhiteWallFacingTriffo.jpg
+
+newmtl LightBrownTile
+Ka 0.000000 0.000000 0.000000
+Kd 0.772549 0.725490 0.635294
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/LightBrownTile.jpg
+
+newmtl cinderblock
+Ka 0.000000 0.000000 0.000000
+Kd 0.839216 0.843137 0.819608
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/cinderblock.jpg
+
+newmtl TheMetalRoof
+Ka 0.000000 0.000000 0.000000
+Kd 0.666667 0.741176 0.831373
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/TheMetalRoof.jpg
+
+newmtl roughConcrete
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.756863 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/roughConcrete.jpg
+
+newmtl PerferatedMetal
+Ka 0.000000 0.000000 0.000000
+Kd 0.768627 0.768627 0.768627
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/PerferatedMetal.jpg
+
+newmtl Google_Earth_Snapshot_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.470588 0.466667 0.482353
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/Google_Earth_Snapshot_1.jpg
+
+newmtl BrickWindow_Small001
+Ka 0.000000 0.000000 0.000000
+Kd 0.450980 0.572549 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/BrickWindow_Small001.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Google_Earth_Snapshot_1_1_
+Ka 0.000000 0.000000 0.000000
+Kd 0.470588 0.466667 0.482353
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/Google_Earth_Snapshot_1_1_.jpg
+
+newmtl VertBrick
+Ka 0.000000 0.000000 0.000000
+Kd 0.513725 0.290196 0.200000
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/VertBrick.jpg
+
+newmtl RoofMetalTexture
+Ka 0.000000 0.000000 0.000000
+Kd 0.294118 0.298039 0.329412
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/RoofMetalTexture.jpg
+
+newmtl door2
+Ka 0.000000 0.000000 0.000000
+Kd 0.623529 0.647059 0.647059
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/door2.jpg
+
+newmtl BrickWindow_Small002
+Ka 0.000000 0.000000 0.000000
+Kd 0.529412 0.635294 0.705882
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/BrickWindow_Small002.jpg
+
+newmtl Google_Earth_Snapshot_1_2_
+Ka 0.000000 0.000000 0.000000
+Kd 0.470588 0.466667 0.482353
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/Google_Earth_Snapshot_1_2_.jpg
+
+newmtl SideofGreyBlock001
+Ka 0.000000 0.000000 0.000000
+Kd 0.662745 0.670588 0.639216
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/SideofGreyBlock001.jpg
+
+newmtl BrickWindow_001
+Ka 0.000000 0.000000 0.000000
+Kd 0.407843 0.537255 0.631373
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/BrickWindow_001.jpg
+
+newmtl BrickWindow_003
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.592157 0.662745
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/BrickWindow_003.jpg
+
+newmtl BrickWindow_002
+Ka 0.000000 0.000000 0.000000
+Kd 0.490196 0.600000 0.666667
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/BrickWindow_002.jpg
+
+newmtl Garage
+Ka 0.000000 0.000000 0.000000
+Kd 0.447059 0.388235 0.301961
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/Garage.jpg
+
+newmtl BrickWindow_Relflection001
+Ka 0.000000 0.000000 0.000000
+Kd 0.662745 0.650980 0.607843
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/BrickWindow_Relflection001.jpg
+
+newmtl BrickWindow_Small003
+Ka 0.000000 0.000000 0.000000
+Kd 0.482353 0.517647 0.533333
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/BrickWindow_Small003.jpg
+
+newmtl BrickWindow_Relflection002
+Ka 0.000000 0.000000 0.000000
+Kd 0.600000 0.631373 0.615686
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/BrickWindow_Relflection002.jpg
+
+newmtl Door_Brown
+Ka 0.000000 0.000000 0.000000
+Kd 0.439216 0.388235 0.372549
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/Door_Brown.jpg
+
+newmtl Stone
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.780392 0.780392
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/Stone.jpg
+
+newmtl M_1_facingCAB_m002
+Ka 0.000000 0.000000 0.000000
+Kd 0.403922 0.364706 0.325490
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/M_1_facingCAB_m002.jpg
+
+newmtl M_1_facingCAB_sky001
+Ka 0.000000 0.000000 0.000000
+Kd 0.364706 0.505882 0.654902
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/M_1_facingCAB_sky001.jpg
+
+newmtl M_1_facingCAB_sky002
+Ka 0.000000 0.000000 0.000000
+Kd 0.247059 0.388235 0.552941
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/M_1_facingCAB_sky002.jpg
+
+newmtl M_1_facingCAB_m001
+Ka 0.000000 0.000000 0.000000
+Kd 0.462745 0.376471 0.294118
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/M_1_facingCAB_m001.jpg
+
+newmtl sky005
+Ka 0.000000 0.000000 0.000000
+Kd 0.372549 0.462745 0.580392
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/sky005.jpg
+
+newmtl sky002
+Ka 0.000000 0.000000 0.000000
+Kd 0.388235 0.470588 0.580392
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/sky002.jpg
+
+newmtl M_1_facingCAB_byWallTop
+Ka 0.000000 0.000000 0.000000
+Kd 0.207843 0.313725 0.443137
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/M_1_facingCAB_byWallTop.jpg
+
+newmtl sky004
+Ka 0.000000 0.000000 0.000000
+Kd 0.325490 0.423529 0.525490
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/sky004.jpg
+
+newmtl RailMetal_Dark
+Ka 0.000000 0.000000 0.000000
+Kd 0.925490 0.921569 0.917647
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/RailMetal_Dark.png
+
+newmtl facingGreen001
+Ka 0.000000 0.000000 0.000000
+Kd 0.407843 0.423529 0.298039
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/facingGreen001.jpg
+
+newmtl facingGreen004
+Ka 0.000000 0.000000 0.000000
+Kd 0.380392 0.411765 0.337255
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/facingGreen004.jpg
+
+newmtl M_1_facingCAB_m004
+Ka 0.000000 0.000000 0.000000
+Kd 0.439216 0.411765 0.372549
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/M_1_facingCAB_m004.jpg
+
+newmtl Basement003
+Ka 0.000000 0.000000 0.000000
+Kd 0.329412 0.325490 0.290196
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/Basement003.jpg
+
+newmtl greyWalls
+Ka 0.000000 0.000000 0.000000
+Kd 0.764706 0.768627 0.729412
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/greyWalls.jpg
+
+newmtl OnGreyBlock
+Ka 0.000000 0.000000 0.000000
+Kd 0.196078 0.180392 0.156863
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/OnGreyBlock.jpg
+
+newmtl Yellow_Openable
+Ka 0.000000 0.000000 0.000000
+Kd 0.756863 0.752941 0.709804
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/Yellow_Openable.jpg
+
+newmtl Yellow_NotOpenable
+Ka 0.000000 0.000000 0.000000
+Kd 0.686275 0.701961 0.670588
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/Yellow_NotOpenable.jpg
+
+newmtl BottomRail_Beige
+Ka 0.000000 0.000000 0.000000
+Kd 0.329412 0.290196 0.270588
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/BottomRail_Beige.jpg
+
+newmtl AwsomeConcrete_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.490196 0.415686 0.352941
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/AwsomeConcrete_1.jpg
+
+newmtl Steps_Beige
+Ka 0.000000 0.000000 0.000000
+Kd 0.439216 0.407843 0.400000
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/Steps_Beige.png
+
+newmtl Basement001
+Ka 0.000000 0.000000 0.000000
+Kd 0.360784 0.360784 0.321569
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/Basement001.jpg
+
+newmtl BasementWindow_Yellow
+Ka 0.000000 0.000000 0.000000
+Kd 0.486275 0.525490 0.525490
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/BasementWindow_Yellow.jpg
+
+newmtl M_1_facingCAB_byWall
+Ka 0.000000 0.000000 0.000000
+Kd 0.388235 0.454902 0.521569
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/M_1_facingCAB_byWall.jpg
+
+newmtl M_1_facingCAB_b002
+Ka 0.000000 0.000000 0.000000
+Kd 0.400000 0.360784 0.286275
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/M_1_facingCAB_b002.jpg
+
+newmtl facingGreen003
+Ka 0.000000 0.000000 0.000000
+Kd 0.372549 0.403922 0.337255
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/facingGreen003.jpg
+
+newmtl sky001
+Ka 0.000000 0.000000 0.000000
+Kd 0.411765 0.482353 0.556863
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/sky001.jpg
+
+newmtl facingGreen002
+Ka 0.000000 0.000000 0.000000
+Kd 0.403922 0.415686 0.266667
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/facingGreen002.jpg
+
+newmtl sky003
+Ka 0.000000 0.000000 0.000000
+Kd 0.298039 0.415686 0.552941
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/sky003.jpg
+
+newmtl Basement002
+Ka 0.000000 0.000000 0.000000
+Kd 0.403922 0.372549 0.313725
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/Basement002.jpg
+
+newmtl M_1_facingCAB_m003
+Ka 0.000000 0.000000 0.000000
+Kd 0.454902 0.368627 0.290196
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/M_1_facingCAB_m003.jpg
+
+newmtl M_1_facingCAB_b003
+Ka 0.000000 0.000000 0.000000
+Kd 0.372549 0.345098 0.282353
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/M_1_facingCAB_b003.jpg
+
+newmtl M_1_facingCAB_b001
+Ka 0.000000 0.000000 0.000000
+Kd 0.419608 0.352941 0.270588
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/M_1_facingCAB_b001.jpg
+
+newmtl M_1_facingCAB_b004
+Ka 0.000000 0.000000 0.000000
+Kd 0.529412 0.454902 0.360784
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/M_1_facingCAB_b004.jpg
+
+newmtl RailMetal
+Ka 0.000000 0.000000 0.000000
+Kd 0.964706 0.964706 0.964706
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/RailMetal.png
+
+newmtl RailMetalYellow
+Ka 0.000000 0.000000 0.000000
+Kd 0.972549 0.960784 0.925490
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/RailMetalYellow.png
+
+newmtl byPedway001
+Ka 0.000000 0.000000 0.000000
+Kd 0.509804 0.552941 0.486275
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/byPedway001.jpg
+
+newmtl byPedway003
+Ka 0.000000 0.000000 0.000000
+Kd 0.368627 0.450980 0.301961
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/byPedway003.jpg
+
+newmtl byPedway002
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.600000 0.603922
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/byPedway002.jpg
+
+newmtl BigSideWindow
+Ka 0.000000 0.000000 0.000000
+Kd 0.486275 0.505882 0.450980
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/BigSideWindow.jpg
+
+newmtl OnGreyBlock2
+Ka 0.000000 0.000000 0.000000
+Kd 0.372549 0.454902 0.607843
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/OnGreyBlock2.jpg
+
+newmtl OnGreyBlock2h
+Ka 0.000000 0.000000 0.000000
+Kd 0.380392 0.458824 0.600000
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/OnGreyBlock2h.jpg
+
+newmtl OnGreyBlock2b
+Ka 0.000000 0.000000 0.000000
+Kd 0.396078 0.396078 0.262745
+Ks 0.330000 0.330000 0.330000
+map_Kd Cameron/OnGreyBlock2b.jpg
+
