@@ -9,11 +9,14 @@
         <a-scene embedded arjs>
             
             <a-assets>
-                <a-asset-item id="cameron-obj" src="./models/Cameron.obj"></a-asset-item>
-                <a-asset-item id="cameron-mtl" src="./models/Cameron.mtl"></a-asset-item>
+                <!--<a-asset-item id="cameron-obj" src="./models/Cameron.obj"></a-asset-item>
+                <a-asset-item id="cameron-mtl" src="./models/Cameron.mtl"></a-asset-item> -->
+                <a-asset-item id="cameron" src="./models/Cameron.dae"></a-asset-item>
             </a-assets>
             
-            <a-entity obj-model="obj: #cameron-obj; mtl: #cameron-mtl" scale="0.01 0.01 0.01" position="0 0 0"></a-entity>
+            <a-entity collada-model src="#cameron" scale="0.01 0.01 0.01" position="0 0 0"></a-entity>
+
+            <!-- <a-entity obj-model="obj: #cameron-obj; mtl: #cameron-mtl" scale="0.01 0.01 0.01" position="0 0 0"></a-entity> -->
 
             <a-plane color="blue" position="0 0 0" rotation="-90 0 0"></a-plane>
     
