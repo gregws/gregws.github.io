@@ -14,7 +14,15 @@
                 <a-asset-item id="cameron" src="./models/Cameron.dae"></a-asset-item>
             </a-assets>
             
-            <a-entity collada-model src="#cameron" scale="0.01 0.01 0.01" position="0 0 0"></a-entity>
+            <!-- <a-entity collada-model src="#cameron" scale="0.01 0.01 0.01" position="0 0 0"></a-entity> -->
+
+            <a-entity
+                id="house"
+                position="0 0 0"
+                rotation="0 0 0"
+                scale="3 3 3"
+                collada-model = "url(./models/Collada03.dae)">
+            </a-entity>
 
             <!-- <a-entity obj-model="obj: #cameron-obj; mtl: #cameron-mtl" scale="0.01 0.01 0.01" position="0 0 0"></a-entity> -->
 
