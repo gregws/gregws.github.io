@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <!-- Site Information -->
+    <meta charset="utf-8">
+    <title>Hello, WebVR! • A-Frame</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    
+    <!-- Import A-Frame -->
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    
+    <!-- Import the Environment script -->
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+    
+  </head>
+  <body>  
+    
+    <!-- The A-Frame Scene -->
+    <a-scene class="fullscreen" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui=""><canvas class="a-canvas" data-aframe-canvas="true" width="600" height="300"></canvas>
+      
+      <!-- Import Assets for the Scene -->
+      <a-assets>
+        <img id="boxTexture" src="https://i.imgur.com/mYmmbrp.jpg">
+        <img id="skyTexture" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/city.jpg">
+        <a-asset-item id="tree-obj" src="https://cdn.glitch.com/fbd21ae0-2502-470f-a6c3-27fa4f332823%2Ftree01.obj?1545509893523"></a-asset-item>
+        <a-asset-item id="tree-mtl" src="https://cdn.glitch.com/fbd21ae0-2502-470f-a6c3-27fa4f332823%2Ftree01.mtl?1545509893627"></a-asset-item>
+      </a-assets>
+      
+      <!-- Draw Geometry -->
+      <a-entity
+        obj-model="obj: #tree-obj; mtl: #tree-mtl"  
+        position="0 0 -10"
+        scale="0.01 0.01 0.01"
+      ></a-entity>
+      
+      <a-box src="#boxTexture" position="-2 2 -4"></a-box>
+      
+      <a-entity id="cube" geometry="" material="color:blue" position="-2 0.5 -4" shadow="">
+      </a-entity>
+      
+      <a-sphere position="0 0.08543 -5" radius="1.25" color="#EF2D5E" shadow="" material="" geometry="" scale="0.5 0.5 0.5"></a-sphere>
+      <a-cylinder position="0.62209 0.75 -5.15881" radius="0.5" height="1.5" color="#FFC65D" shadow="" material="" geometry=""></a-cylinder>
+
+      <!-- Draw the environment -->
+      <!--<a-sky src="#skyTexture"></a-sky>-->
+      <a-entity
+          environment="preset: contact; dressingAmount: 10">
+      </a-entity>
+      
+      <!-- ground plane
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow="" material="" geometry=""></a-plane>
+      -->     
+
+    </a-scene>
+  
+  </body>
+</html>
