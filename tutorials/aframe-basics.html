@@ -4,7 +4,7 @@
     
     <!-- Site Information -->
     <meta charset="utf-8">
-    <title>Hello, WebVR! • A-Frame</title>
+    <title>A-Frame Basics Tutorial</title>
     <meta name="description" content="Hello, WebVR! • A-Frame">
     
     <!-- Import A-Frame -->
@@ -23,16 +23,16 @@
       <a-assets>
         <img id="boxTexture" src="https://i.imgur.com/mYmmbrp.jpg">
         <img id="skyTexture" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/city.jpg">
-        <a-asset-item id="tree-obj" src="https://cdn.glitch.com/fbd21ae0-2502-470f-a6c3-27fa4f332823%2Ftree01.obj?1545509893523"></a-asset-item>
-        <a-asset-item id="tree-mtl" src="https://cdn.glitch.com/fbd21ae0-2502-470f-a6c3-27fa4f332823%2Ftree01.mtl?1545509893627"></a-asset-item>
+        <a-asset-item id="tree-obj" src="/models/tree01.obj"></a-asset-item>
+        <a-asset-item id="tree-mtl" src="/models/tree01.mtl"></a-asset-item>
       </a-assets>
       
-      <!-- Draw Geometry 
+      <!-- Draw Geometry -->
       <a-entity
         obj-model="obj: #tree-obj; mtl: #tree-mtl"  
         position="0 0 -10"
         scale="0.01 0.01 0.01"
-      ></a-entity>-->
+      ></a-entity>
       
       <a-box src="#boxTexture" position="-2 2 -4"></a-box>
       
